@@ -6,6 +6,7 @@ var cleanCSS = require('gulp-clean-css');
 var rename = require("gulp-rename");
 var uglify = require('gulp-uglify');
 var pkg = require('./package.json');
+var connect = require('gulp-connect');
 
 // Set the banner content
 var banner = ['/*!\n',
@@ -108,4 +109,12 @@ gulp.task('dev', ['browserSync', 'sass', 'minify-css', 'minify-js'], function() 
   // Reloads the browser whenever HTML or JS files change
   gulp.watch('*.html', browserSync.reload);
   gulp.watch('js/**/*.js', browserSync.reload);
+});
+
+// Launch server
+gulp.task('connect', function() {
+  connect.server({
+    root: '.',
+    livereload: true
+  })
 });
