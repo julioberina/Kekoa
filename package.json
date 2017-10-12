@@ -28,7 +28,6 @@
   "dependencies": {
     "bootstrap": "^4.0.0-beta",
     "font-awesome": "4.7.0",
-    "inflight": "^1.0.6",
     "jquery": "^3.2.1",
     "popper.js": "^1.11.1"
   },
@@ -36,7 +35,6 @@
     "browser-sync": "2.18.13",
     "gulp": "^3.9.1",
     "gulp-clean-css": "3.7.0",
-    "gulp-connect": "^5.0.0",
     "gulp-header": "1.8.9",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
