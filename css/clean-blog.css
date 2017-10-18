@@ -6,11 +6,16 @@
 body {
   font-size: 20px;
   color: #333333;
-  font-family: 'Lora', 'Times New Roman', serif; }
+  font-family: 'Lora', 'Times New Roman', serif;
+  background-image: url("c:\Users\jesse\Desktop\Kekoa_website\Kekoa_website\img\upfeathers.png");
+}
 
 p {
   line-height: 1.5;
-  margin: 30px 0; }
+  margin: 0 auto;
+  border-style: solid;
+  border-width: 5px;
+}
   p a {
     text-decoration: underline; }
 
@@ -349,3 +354,24 @@ footer {
   color: white;
   border: 1px solid #0085A1;
   background-color: #0085A1; }
+
+.h2 {
+  position: absolute; 
+  top: 200px; 
+  left: 0; 
+  width: 100%; 
+}
+
+.image{
+  position: relative; 
+  width: 100%;
+}
+
+.h2 span { 
+  color: white; 
+  font: bold 24px/45px Helvetica, Sans-Serif; 
+  letter-spacing: -1px;  
+  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px; 
+}
