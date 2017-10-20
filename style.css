@@ -1,0 +1,29 @@
+/* Container holding the image and the text */
+.box {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+p{
+    font-family: "Roboto"
+}
+
+.intro{
+    font-family: "Abel"
+}
+
+body {
+    padding: 20px;
+    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+  }
+  
