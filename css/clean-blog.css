@@ -363,7 +363,8 @@ footer {
 }
 
 .image{
-  position: relative; 
+  background-image: url("../img/upfeathers.png");
+  position: relative;
   width: 100%;
 }
 
